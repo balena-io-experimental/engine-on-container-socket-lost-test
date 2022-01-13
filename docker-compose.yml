@@ -1,0 +1,7 @@
+version: '2'
+services:
+    exportsocket:
+        build: ./exportsocket
+        restart: none
+        labels:
+            io.balena.features.balena-socket: '1'
